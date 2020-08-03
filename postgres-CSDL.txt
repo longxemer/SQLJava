@@ -1,0 +1,18 @@
+create table khachhang
+(
+	makh int not null primary key,
+	ten varchar(20) not null,
+	cancuoc varchar(20) not null,
+	phone varchar(10) null,
+	ngay int not null,
+	loai int not null,
+	gia int not null
+)
+
+insert into khachhang values 
+(1,'long','036200008768','0815483669',5,1,50000),
+(2,'long 1','036200008769','0815483669',4,2,100000),
+(3,'long 2','036200008770','0815483669',3,3,150000),
+(4,'long 3','036200008771','0815483669',6,4,200000),
+(5,'long 4','036200008772','0815483669',7,1,50000),
+(6,'long 5','036200008773','0815483669',9,3,150000)
